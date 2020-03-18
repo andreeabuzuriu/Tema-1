@@ -11,9 +11,9 @@ public abstract class Document {
 
     @Override
     public String toString() {
-        String res = "";
+        String res = "DOC";
         for (String cuvant : continut) {
-            res += cuvant + " ";
+            res += cuvant + "--";
         }
         return res;
     }
