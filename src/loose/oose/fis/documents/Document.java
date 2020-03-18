@@ -12,9 +12,11 @@ public abstract class Document {
 
     @Override
     public String toString() {
+
         String res = "Document: ";
         for (String cuvant : continut) {
             res += cuvant + "+";
+
         }
         return res;
     }

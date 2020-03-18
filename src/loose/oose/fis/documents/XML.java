@@ -25,5 +25,6 @@ public class XML extends Document {
     @Override
     public String toString() {
         return "XML " + super.toString() + " SFARSIT";
+
     }
 }
