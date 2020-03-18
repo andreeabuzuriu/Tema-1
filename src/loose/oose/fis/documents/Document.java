@@ -9,11 +9,12 @@ public abstract class Document {
 
     public abstract String[] analizeaza();
 
+
     @Override
     public String toString() {
-        String res = "";
+        String res = "Document: ";
         for (String cuvant : continut) {
-            res += cuvant + " ";
+            res += cuvant + "+";
         }
         return res;
     }
